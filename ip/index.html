@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visitor IP and Location Widget</title>
+    <title>访客信息小组件</title>
 
     <style>
         body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             margin: 0;
-            overflow: hidden; /* 隐藏页面滚动条 */
+            overflow: hidden;
         }
 
         .widget {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 阴影效果 */
             text-align: center;
         }
 
         h1 {
-            color: #3498db;
+            color: #3498db; /* 蓝色标题 */
         }
 
         p {
-            color: #333;
+            color: #333; /* 黑色文本 */
             margin: 10px 0;
         }
     </style>
